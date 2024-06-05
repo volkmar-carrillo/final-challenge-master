@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "9e2853dc-2238-47bf-8e46-eac4a5a49d47",
+		"name": "final-challenge-master",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19854247"
+	},
+	"item": [
+		{
+			"name": "/products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"minPrice\": 10000,\r\n  \"products\": [\r\n    {\r\n      \"name\": \"Auriculares Xiaomi Basic\",\r\n      \"price\": 12000\r\n    },\r\n    {\r\n      \"name\": \"Funda para Smartphone\",\r\n      \"price\": 6000\r\n    },\r\n    {\r\n      \"name\": \"Cargador Rápido USB\",\r\n      \"price\": 15000\r\n    },\r\n    {\r\n      \"name\": \"Memoria USB 32GB SanDisk\",\r\n      \"price\": 18000\r\n    },\r\n    {\r\n      \"name\": \"Lámpara LED de Escritorio\",\r\n      \"price\": 12000\r\n    },\r\n    {\r\n      \"name\": \"Cuaderno Argollado\",\r\n      \"price\": 5000\r\n    },\r\n    {\r\n      \"name\": \"Termo de Agua 500ml\",\r\n      \"price\": 8000\r\n    },\r\n    {\r\n      \"name\": \"Mouse Inalámbrico Logitech\",\r\n      \"price\": 15000\r\n    },\r\n    {\r\n      \"name\": \"Teclado USB HP\",\r\n      \"price\": 20000\r\n    },\r\n    {\r\n      \"name\": \"Altavoz Bluetooth Portátil\",\r\n      \"price\": 15000\r\n    },\r\n    {\r\n      \"name\": \"Protector de Pantalla para Smartphone\",\r\n      \"price\": 8000\r\n    },\r\n    {\r\n      \"name\": \"Calculadora Científica Casio\",\r\n      \"price\": 18000\r\n    },\r\n    {\r\n      \"name\": \"Audífonos Estéreo Panasonic\",\r\n      \"price\": 18000\r\n    },\r\n    {\r\n      \"name\": \"Organizador de Escritorio\",\r\n      \"price\": 10000\r\n    },\r\n    {\r\n      \"name\": \"Portarretratos Digital\",\r\n      \"price\": 20000\r\n    },\r\n    {\r\n      \"name\": \"Almohada Cervical\",\r\n      \"price\": 16000\r\n    },\r\n    {\r\n      \"name\": \"Botella Deportiva 1L\",\r\n      \"price\": 7000\r\n    },\r\n    {\r\n      \"name\": \"Cámara Web USB\",\r\n      \"price\": 19000\r\n    },\r\n    {\r\n      \"name\": \"Kit de Limpieza para Laptop\",\r\n      \"price\": 10000\r\n    },\r\n    {\r\n      \"name\": \"Base Enfriadora para Laptop\",\r\n      \"price\": 14000\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://1urhkd6mbe.execute-api.us-east-2.amazonaws.com/dev/products",
+					"protocol": "https",
+					"host": [
+						"1urhkd6mbe",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/people",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"people\": [\r\n    {\r\n      \"name\": \"Alice\",\r\n      \"age\": 25\r\n    },\r\n    {\r\n      \"name\": \"Bob\",\r\n      \"age\": 30\r\n    },\r\n    {\r\n      \"name\": \"Charlie\",\r\n      \"age\": 22\r\n    },\r\n    {\r\n      \"name\": \"David\",\r\n      \"age\": 35\r\n    },\r\n    {\r\n      \"name\": \"Eve\",\r\n      \"age\": 28\r\n    },\r\n    {\r\n      \"name\": \"Frank\",\r\n      \"age\": 40\r\n    },\r\n    {\r\n      \"name\": \"Grace\",\r\n      \"age\": 27\r\n    },\r\n    {\r\n      \"name\": \"Hannah\",\r\n      \"age\": 24\r\n    },\r\n    {\r\n      \"name\": \"Ivy\",\r\n      \"age\": 31\r\n    },\r\n    {\r\n      \"name\": \"Jack\",\r\n      \"age\": 29\r\n    },\r\n    {\r\n      \"name\": \"Kathy\",\r\n      \"age\": 32\r\n    },\r\n    {\r\n      \"name\": \"Leo\",\r\n      \"age\": 26\r\n    },\r\n    {\r\n      \"name\": \"Mona\",\r\n      \"age\": 33\r\n    },\r\n    {\r\n      \"name\": \"Nick\",\r\n      \"age\": 23\r\n    },\r\n    {\r\n      \"name\": \"Olivia\",\r\n      \"age\": 21\r\n    },\r\n    {\r\n      \"name\": \"Paul\",\r\n      \"age\": 34\r\n    },\r\n    {\r\n      \"name\": \"Quinn\",\r\n      \"age\": 36\r\n    },\r\n    {\r\n      \"name\": \"Rachel\",\r\n      \"age\": 30\r\n    },\r\n    {\r\n      \"name\": \"Steve\",\r\n      \"age\": 38\r\n    },\r\n    {\r\n      \"name\": \"Tina\",\r\n      \"age\": 25\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://1urhkd6mbe.execute-api.us-east-2.amazonaws.com/dev/people",
+					"protocol": "https",
+					"host": [
+						"1urhkd6mbe",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/store",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://1urhkd6mbe.execute-api.us-east-2.amazonaws.com/dev/store",
+					"protocol": "https",
+					"host": [
+						"1urhkd6mbe",
+						"execute-api",
+						"us-east-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"store"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
